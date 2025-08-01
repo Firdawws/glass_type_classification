@@ -10,13 +10,13 @@ This project builds an intelligent system to **classify glass fragments** into d
 
 ---
 
-## 📦 Dataset Details
+## Dataset Details
 
 - **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/glass+identification)
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Explore the data (EDA): uncover patterns, check class distributions, and identify outliers
 - Build and compare several machine learning models
@@ -27,7 +27,7 @@ This project builds an intelligent system to **classify glass fragments** into d
 
 ---
 
-## 🛠 Models Used
+## Models Used
 
 | Model               | Why It Was Chosen                         |
 |--------------------|--------------------------------------------|
@@ -46,7 +46,7 @@ Each model was evaluated using:
 ---
 
 
-## 🌐 App Deployment (Streamlit)
+## App Deployment (Streamlit)
 
 We turned our best-performing model into a **real-time prediction app** using Streamlit.
 
@@ -55,6 +55,7 @@ We turned our best-performing model into a **real-time prediction app** using St
 ```bash
 streamlit run app.py
 
+----
 
 glass_type_classification/
 │
@@ -66,14 +67,4 @@ glass_type_classification/
 ├── notebook.ipynb        # Full development notebook
 ├── README.md             # This file
 
-## ⚙️ Tools & Libraries
 
-Python
-
-Scikit-learn
-
-XGBoost
-
-Matplotlib & Seaborn (visuals)
-
-Streamlit (deployment)
