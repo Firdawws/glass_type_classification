@@ -6,7 +6,7 @@ When broken glass becomes a clue at a crime scene, identifying its type can turn
 
 ## What This Project Does
 
-This project builds an intelligent system to **classify glass fragments** into different types (e.g., window, tableware, containers) based on their chemical makeup. The ultimate goal: **assist forensic investigations** by providing fast, accurate predictions about the origin of glass samples.
+This project builds an intelligent system to **classify glass fragments** into different types (e.g., window, tableware, containers) based on their chemical makeup.
 
 ---
 
@@ -45,16 +45,16 @@ Each model was evaluated using:
 
 ---
 
-
 ## App Deployment (Streamlit)
 
-We turned our best-performing model into a **real-time prediction app** using Streamlit.
+We used streamlit to deploy the app
 
 ### How to Run It:
 
 ```bash
 streamlit run app.py
 
+```
 ----
 
 glass_type_classification/
