@@ -57,6 +57,7 @@ streamlit run app.py
 ```
 ----
 
+### Project Folder
 ```bash
 
 glass_type_classification/
