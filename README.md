@@ -57,6 +57,8 @@ streamlit run app.py
 ```
 ----
 
+```bash
+
 glass_type_classification/
 │
 ├── app.py                # Streamlit web app
